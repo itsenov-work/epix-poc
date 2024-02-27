@@ -1,0 +1,260 @@
+{
+    "Physical-activity": [
+        {
+            "label": "*Sedentary*: Little to no physical activity",
+            "value": 5
+        },
+        {
+            "label": "*Low:* Occasional movement or light exercise",
+            "value": 1
+        },
+        {
+            "label": "*Moderate*: Regular but moderate physical activity",
+            "value": -2
+        },
+        {
+            "label": "*High*: Consistent and vigorous physical activity",
+            "value": -4
+        },
+        {
+            "label": "*Very High*: Extremely active",
+            "value": -5
+        }
+    ],
+    "Sports-or-excercise": [
+        {
+            "label": "*Never*: I do not participate in sport activities at all.",
+            "value": 4
+        },
+        {
+            "label": "*Rarely*: I engage in sport activities occasionally, around once a month.",
+            "value": 3
+        },
+        {
+            "label": "*Sometimes*: I participate in such activities regularly, around 1-2 times a month.",
+            "value": 0
+        },
+        {
+            "label": "*Frequently*: I engage in such activities often, around 1-2 times a week.",
+            "value": -2
+        },
+        {
+            "label": "*Consistently*: I participate in such activities regularly, more than 2 times a week.",
+            "value": -5
+        }
+    ],
+    "Cigarettes": [
+        {
+            "label": "*Non-smoker*: I do not smoke.",
+            "value": -1
+        },
+        {
+            "label": "*Infrequent*: I smoke occasionally, less than once a day.",
+            "value": 1
+        },
+        {
+            "label": "*Light Smoker*: I smoke regularly, around 1-5 cigarettes per day.",
+            "value": 2
+        },
+        {
+            "label": "*Moderate Smoker*: I smoke regularly, around 6-10 cigarettes per day.",
+            "value": 3
+        },
+        {
+            "label": "*Heavy Smoker*: I smoke regularly, more than 10 cigarettes per day.",
+            "value": 5
+        }
+    ],
+    "Alcohol": [
+        {
+            "label": "*Never*: I do not consume alcohol.",
+            "value": -2
+        },
+        {
+            "label": "*Rarely*: I consume alcohol infrequently, on special occasions.",
+            "value": -1
+        },
+        {
+            "label": "*Occasionally*: I consume alcohol occasionally, but not regularly.",
+            "value": 0
+        },
+        {
+            "label": "*Regularly (Moderate)*: I consume alcohol regularly, in moderation.",
+            "value": 2
+        },
+        {
+            "label": "*Regularly (Heavy)*: I consume alcohol regularly, and it's considered heavy drinking.",
+            "value": 5
+        }
+    ],
+    "Hours-of-sleep": [
+        {
+            "label": "*0-4 hours*: I typically get very few hours of sleep per night.",
+            "value": 5
+        },
+        {
+            "label": "*5-6 hours*: I get fewer hours of sleep than recommended.",
+            "value": 2
+        },
+        {
+            "label": "*7-8 hours*: I get an adequate amount of sleep most nights.",
+            "value": -2
+        },
+        {
+            "label": "*9-10 hours*: I get more sleep than the average recommended amount.",
+            "value": 2
+        },
+        {
+            "label": "*10+ hours*: I typically get a very high number of hours of sleep per night.",
+            "value": 4
+        }
+    ],
+    "Daily-diet": [
+        {
+            "label": "*Carnivorous*: My diet mainly consists of animal-based products",
+            "value": 4
+        },
+        {
+            "label": "*Omnivorous with Limited Variety*: I consume both animal and plant-based foods but with limited variety.",
+            "value": 2
+        },
+        {
+            "label": "*Balanced Omnivore*: I maintain a balanced diet with a mix of animal and plant-based foods.",
+            "value": -2
+        },
+        {
+            "label": "*Vegetarian/Vegan with Limited Variety*: The majority of my diet is plant-based with limited animal-based products.",
+            "value": -3
+        },
+        {
+            "label": "*Vegan:* My diet primarily consists of plant-based foods, with no animal-based products.",
+            "value": -4
+        }
+    ],
+    "Fruit-and-vegetables": [
+        {
+            "label": "*Rarely*: I seldom consume fruits and vegetables.",
+            "value": 4
+        },
+        {
+            "label": "*Occasionally*: I consume fruits and vegetables occasionally but not regularly.",
+            "value": 3
+        },
+        {
+            "label": "*Moderately Often*: I consume fruits and vegetables with moderate frequency.",
+            "value": 0
+        },
+        {
+            "label": "*Regularly*: I have a consistent intake of fruits and vegetables.",
+            "value": -2
+        },
+        {
+            "label": "*Frequently*: I consume fruits and vegetables very often, incorporating them into most of my meals.",
+            "value": -4
+        }
+    ],
+    "Diagnosed": [
+        {
+            "label": "Metabolic Diseases (e.g., diabetes)",
+            "value": 3
+        },
+        {
+            "label": "Joint-related Diseases (e.g., arthritis)",
+            "value": 2
+        },
+        {
+            "label": "Neurological Diseases (e.g., Alzheimer's)",
+            "value": 4
+        },
+        {
+            "label": "Respiratory Diseases (e.g., chronic obstructive pulmonary disease)",
+            "value": 4
+        },
+        {
+            "label": "Osteoporosis",
+            "value": 4
+        },
+        {
+            "label": "Vision-related Diseases (e.g., cataracts)",
+            "value": 2
+        },
+        {
+            "label": "None of the above",
+            "value": -1
+        }
+    ],
+    "Stress-Level": [
+        {
+            "label": "Very Low",
+            "value": -4
+        },
+        {
+            "label": "Low",
+            "value": -2
+        },
+        {
+            "label": "Moderate",
+            "value": 0
+        },
+        {
+            "label": "High",
+            "value": 3
+        },
+        {
+            "label": "Very High",
+            "value": 5
+        }
+    ],
+    "Meditation": [
+        {
+            "label": "Yes, I practice them often.",
+            "value": -3
+        },
+        {
+            "label": "Yes, occasionally.",
+            "value": 0
+        },
+        {
+            "label": "No, I don't practice them.",
+            "value": 2
+        }
+    ],
+    "Mental-health-condition": [
+        {
+            "label": "Yes, I have been diagnosed with a mental health condition.",
+            "value": 4
+        },
+        {
+            "label": "No, I have not been diagnosed with any mental health condition.",
+            "value": -1
+        }
+    ],
+    "Blood-pressure": [
+        {
+            "label": "*Normal*: Below 120/80 mmHg",
+            "value": -3
+        },
+        {
+            "label": "*Elevated*: 120-129/<80 mmHg",
+            "value": 1
+        },
+        {
+            "label": "*Hypertension Stage* *1*: 130-139/80-89 mmHg",
+            "value": 3
+        },
+        {
+            "label": "*Hypertension Stage 2*: 140 or higher/90 or higher mmHg",
+            "value": 5
+        }
+    ],
+    "Wellness-programs": [
+        {
+            "label": "Yes, I am actively participating in anti-aging or wellness programs.",
+            "value": -3
+        },
+        {
+            "label": "No, I am not currently participating in any anti-aging or wellness programs.",
+            "value": 2
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+  "physical_activity": {
+    "neutral": {
+      "title": "Continue Regular Physical Activity",
+      "text": "Maintain your engagement in moderate to high-intensity physical activities like walking, cycling, and strength training. Consistency is critical for sustained cardiovascular health and overall vitality."
+    },
+    "bad": {
+      "title": "Increase Physical Activity",
+      "text": "Gradually incorporate regular physical activities into your routine. Aim for aerobic exercises, strength training, and flexibility exercises to improve cardiovascular health and overall physical resilience."
+    },
+    "good": {
+      "title": "Sustain Physical Activity Levels",
+      "text": "Continue regular participation in moderate to high-intensity physical activities. Mix your routine with exercises to ensure continued cardiovascular health and overall physical resilience."
+    }
+  },
+
+  "dietary_habits": {
+    "neutral": {
+      "title": "Optimize Diet for Long-Term Health",
+      "text": "Ensure a diverse and balanced diet with a focus on fruits and vegetables. This will provide essential nutrients, antioxidants, and fibre crucial for supporting overall health and longevity."
+    },
+    "bad": {
+      "title": "Revise Dietary Habits",
+      "text": "Prioritize a well-balanced diet with an increased focus on fruits, vegetables, and nutrient-dense foods."
+    },
+    "good": {
+      "title": "Nutrient-Rich Diet",
+      "text": "Maintain a diverse and balanced diet rich in fruits, vegetables, and nutrient-dense foods."
+    }
+  },
+
+  "lifestyle_habits": {
+    "neutral": {
+      "title": "Maintain Healthy Habits",
+      "text": "Uphold the decision to abstain from smoking and limit alcohol consumption. These choices significantly contribute to optimal well-being and help in preventing accelerated ageing."
+    },
+    "bad": {
+      "title": "Quit Smoking and Moderate Alcohol Intake",
+      "text": "Consider quitting smoking altogether to reduce the accelerated impact on respiratory and cardiovascular systems. If applicable, aim to moderate alcohol consumption or seek guidance on healthier drinking habits."
+    },
+    "good": {
+      "title": "Preserve Healthy Lifestyle Habits",
+      "text": "Uphold your commitment to a smoke-free life and limited alcohol consumption. Consistent adherence to recommended sleep durations is essential for maintaining optimal well-being and supporting a young biological age."
+    }
+  },
+
+  "medical_history": {
+    "neutral": {
+      "title": "Regular Health Check-ups",
+      "text": "While your medical history is clean, regular health check-ups can help detect any potential issues early on, allowing for timely interventions and preventive measures."
+    },
+    "bad": {
+      "title": "Manage Chronic Conditions",
+      "text": "Work closely with healthcare professionals to manage chronic conditions effectively. Consistent monitoring and adherence to prescribed treatments can mitigate the impact of these conditions on accelerated ageing."
+    },
+    "good": {
+      "title": "Regular Health Check-ups",
+      "text": "While your medical history is clean, continue with regular health check-ups to monitor and celebrate your continued well-being. Early detection of any potential issues can contribute to sustained health."
+    }
+  },
+
+  "stress_management": {
+    "neutral": {
+      "title": "Stay Proactive in Stress Management",
+      "text": "Sustain stress management practices like mindfulness and meditation to support mental health. These activities are crucial in maintaining a positive mindset and contribute to a healthy ageing trajectory."
+    },
+    "bad": {
+      "title": "Explore Stress-Reducing Practices",
+      "text": "Integrate stress-reducing activities into your routine, such as mindfulness, meditation, or yoga. These practices can significantly contribute to mental health and counteract the effects of elevated stress levels."
+    },
+    "good": {
+      "title": "Mindfulness and Meditation",
+      "text": "Continue stress management practices, including mindfulness and meditation. These activities are vital in sustaining mental health and contribute to young biological age."
+    }
+  },
+
+  "genetic_awareness": {
+    "bad": {
+      "title": "Genetic Counseling",
+      "text": "Considering family history and potential genetic factors, consider seeking genetic counselling. This can provide insights into hereditary conditions and guide personalized preventive measures."
+    },
+    "good": {
+      "title": "Genetic Awareness",
+      "text": "Stay aware of your genetic predisposition for a prolonged lifespan. This knowledge can inform future health decisions and guide you in optimizing your lifestyle accordingly."
+    }
+  },
+
+  "wellness_activities": {
+    "neutral": {
+      "title": "Explore Additional Wellness Activities",
+      "text": "Consider exploring additional wellness programs or activities like yoga, nature walks, or other holistic practices that align with your interests and contribute to overall well-being."
+    },
+    "bad": {
+      "title": "Wellness Programs and Support",
+      "text": "Explore wellness programs and support groups that cater to specific health challenges associated with accelerated ageing. Connecting with others facing similar issues can provide valuable insights and encouragement."
+    },
+    "good": {
+      "title": "Explore Holistic Wellness",
+      "text": "Consider exploring additional holistic wellness activities that align with your interests."
+    }
+  },
+
+  "healthy_lifestyle_encouragement": {
+    "neutral": {
+      "title": "Encourage Healthy Lifestyle Among Family",
+      "text": "Share your positive experiences and insights with family members, encouraging them to adopt healthier lifestyles. Family support can foster a collective commitment to well-being."
+    },
+    "good": {
+      "title": "Inspire Others",
+      "text": "Share your journey and positive lifestyle choices with friends and family. Inspire others to adopt healthier habits and contribute to a collective commitment to well-being."
+    }
+  }
+}
