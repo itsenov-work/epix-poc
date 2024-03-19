@@ -32,7 +32,7 @@
   "lifestyle_habits": {
     "neutral": {
       "title": "Maintain Healthy Habits",
-      "text": "Uphold the decision to abstain from smoking and limit alcohol consumption. These choices significantly contribute to optimal well-being and help in preventing accelerated ageing."
+      "text": "Uphold the decision to abstain from smoking and limit alcohol consumption. These choices significantly contribute to optimal well-being and help in preventing accelerated aging."
     },
     "bad": {
       "title": "Quit Smoking and Moderate Alcohol Intake",
@@ -51,7 +51,7 @@
     },
     "bad": {
       "title": "Manage Chronic Conditions",
-      "text": "Work closely with healthcare professionals to manage chronic conditions effectively. Consistent monitoring and adherence to prescribed treatments can mitigate the impact of these conditions on accelerated ageing."
+      "text": "Work closely with healthcare professionals to manage chronic conditions effectively. Consistent monitoring and adherence to prescribed treatments can mitigate the impact of these conditions on accelerated aging."
     },
     "good": {
       "title": "Regular Health Check-ups",
@@ -62,7 +62,7 @@
   "stress_management": {
     "neutral": {
       "title": "Stay Proactive in Stress Management",
-      "text": "Sustain stress management practices like mindfulness and meditation to support mental health. These activities are crucial in maintaining a positive mindset and contribute to a healthy ageing trajectory."
+      "text": "Sustain stress management practices like mindfulness and meditation to support mental health. These activities are crucial in maintaining a positive mindset and contribute to a healthy aging trajectory."
     },
     "bad": {
       "title": "Explore Stress-Reducing Practices",
@@ -92,7 +92,7 @@
     },
     "bad": {
       "title": "Wellness Programs and Support",
-      "text": "Explore wellness programs and support groups that cater to specific health challenges associated with accelerated ageing. Connecting with others facing similar issues can provide valuable insights and encouragement."
+      "text": "Explore wellness programs and support groups that cater to specific health challenges associated with accelerated aging. Connecting with others facing similar issues can provide valuable insights and encouragement."
     },
     "good": {
       "title": "Explore Holistic Wellness",

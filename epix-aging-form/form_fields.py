@@ -18,7 +18,6 @@ class FormFields(StrEnum):
     BMI = "BMI"
     WEIGHT = "Weight"
     HEIGHT = "Height"
-    WAIST = "Waist"
 
 
 FIELD_RELATIVE_WEIGHTS = {

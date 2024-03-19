@@ -54,7 +54,7 @@ def write_text_with_font(output_pdf_path, text_with_font, pages=[1, 2, 3, 4]):
                 if text.startswith("Your results indicate a notably positive"):
                     coords["summary"] = [bbox[0], bbox[1] - font[1]]
             elif page_num == 2:
-                if text.startswith("Given the positive biological ageing"):
+                if text.startswith("Given the positive biological aging"):
                     coords["recommendations"] = [bbox[0], bbox[1] - font[1]]
 
                 if text.startswith("Maintain your engagement in moderate"):

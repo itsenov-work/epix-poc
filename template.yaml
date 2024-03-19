@@ -14,7 +14,23 @@ Globals:
   Api:
     TracingEnabled: true
 
+Parameters:
+  Stage:
+    Type: String
+    Default: prod
+    AllowedValues:
+      - prod
+      - dev
+    Description: Enter stage name prod or dev.
+
 Resources:
+
+  # SQS Queue for EPIX Aging Form
+  EPIXAgingFormQueue:
+      Type: AWS::SQS::Queue
+      Properties:
+          QueueName: epix-aging-form-dead-letter-queue
+
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
@@ -44,9 +60,14 @@ Resources:
           Properties:
             Path: /epix-aging-form
             Method: post
+      Environment:
+        Variables:
+          DEAD_LETTER_QUEUE_URL: !Ref EPIXAgingFormQueue
+
       Policies:
-        - S3FullAccessPolicy:
-            BucketName: epix-aging-form
+        - SQSSendMessagePolicy:
+            QueueName: !GetAtt EPIXAgingFormQueue.QueueName
+
 
 Outputs:
   HelloWorldApi:
@@ -67,3 +88,4 @@ Outputs:
   EPIXAgingFormFunctionIamRole:
     Description: Implicit IAM Role created for EPIX Aging Form function
     Value: !GetAtt EPIXAgingFormFunctionRole.Arn
+

@@ -40,7 +40,7 @@ def read_json(json_path):
 def edit_fields(config, output_file_path="generated.pdf"):
     # Move to the directory of the script
     os.chdir(os.path.dirname(os.path.realpath(__file__)))
-    doc = fitz.open("EPIX Assessment PDF Template with numbers.pdf")
+    doc = fitz.open("form_template.pdf")
     fonts_path = "fonts"
 
     coords = read_json("coords.json")
